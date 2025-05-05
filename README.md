@@ -5,9 +5,7 @@ Uma calculadora simples em linguagem C.
 
 ---
 
-##  Demonstração
-
-![demo](assets/demos.png)
+##  Demonstração![demo](assets/demo.png)
 > *Imagem de exemplo da calculadora em execução no terminal*
 
 ---
@@ -17,7 +15,7 @@ Uma calculadora simples em linguagem C.
 Antes de executar o projeto, vocẽ precisa ter:
 
 - **CodeBlocks** instalado (que inclui o compilador C) - **Terminal ou 
-prompt de comando** (caso queira rodade fora do CodeBlocks)
+prompt de comando** (caso queira rodar fora do CodeBlocks)
 
 
 ## Para compilar no CodeBlocks:
@@ -27,7 +25,7 @@ prompt de comando** (caso queira rodade fora do CodeBlocks)
 
 ## Para rodar no CodeBlocks:
 
-1. Após compliar, clique em "Run" ou pressione **Ctrl+F10"** para executar u
+1. Após compilar, clique em "Run" ou pressione **Ctrl+F10"** para executar u
 o programa.
 
 SE você preferir rodar a partir do terminal, você pode usar o `gcc`(caso tenha o complilador instalado), no terminal, execute:
