@@ -8,32 +8,33 @@ Uma calculadora simples em linguagem C que permite realizar operações matemát
 
 ---
 
-##  Demonstração![demo](assets/demo.png)
+## :camera: Demonstração![demo](assets/demo.png)
 > *Imagem de exemplo da calculadora em execução no terminal*
 
 ---
 
-## Pré-requisitos e Instalação
+## :hammer_and_wrench: Pré-requisitos e Instalação
 
 Antes de executar o projeto, vocẽ precisa ter:
 
-- **CodeBlocks** instalado (que inclui o compilador C) - **Terminal ou 
-prompt de comando** (caso queira rodar fora do CodeBlocks)
+- :computer:[CodeBlocks](http://www.codeblocks.org/downloads) instalado (que inclui o compilador C) 
+- Ou um terminal com o **GCC** instalado (caso queira rodar fora do CodeBlocks)
 
 
-## Para compilar no CodeBlocks:
+## :arrow_forward: Para compilar no CodeBlocks:
 
 1. Abra o CodeBlocks e carregue o arquivo `calculadora.c`.
 2. Clique no botão "Build" ou pressione **F9** para compilar o código.
+3. Após compilar, clique em **Run** ou pressione **Ctrl + F10** para executar.
 
-## Para rodar no CodeBlocks:
+## :gear: Para rodar no CodeBlocks:
 
 1. Após compilar, clique em "Run" ou pressione **Ctrl+F10"** para executar u
 o programa.
 
 SE você preferir rodar a partir do terminal, você pode usar o `gcc`(caso tenha o complilador instalado), no terminal, execute:
 
-## Como Usar 
+## :memo: Como Usar 
 
 Após executar o programa, vocẽ verá um menu no terminal para escolher a operação desejada.
 
@@ -49,14 +50,16 @@ Escolha a operação:
    Digite o segundo número: 5
    Resultado: 15
 
-## Estrutura do Projeto
+## :open_file_folder: Estrutura do Projeto
 
-calculadora-em-c/
-|---calculadora.c
-|---README.md
-|---LICENSE
-|---assets/
-|---demo.png
+````
+
+calculadora-em-c
+calculadora-em-c
+README.md
+LICENSE
+assets
+```
 
 ### Principais Arquivos
 
@@ -65,9 +68,11 @@ calculadora-em-c/
 - `LICENSE` : Arquivo com a licença de uso do projeto.
 - `assets/` : Contém imagens utilizadas no README.
  
-## Licença
+## :page_facing_up: Licença
 
 Esse projeto está licenciado sob Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## :: Para rodar via terminal (Linux/macOS):
 
 ```bash
 gcc calculadora.c -o calculadora
