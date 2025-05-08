@@ -1,4 +1,7 @@
-# calculadora-em-c
+# :abacus: calculadora-em-c
+
+## :book: Descrição 
+
 Uma calculadora simples em linguagem C que permite realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão, diretamente do terminal.
 ![Status](https://img.shields.io/badge/status-finalizado-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
