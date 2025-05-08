@@ -1,4 +1,4 @@
-# :abacus: calculadora-em-c
+# :abacus: Calculadora Baseada em C
 
 ## :book: Descrição 
 
