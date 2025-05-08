@@ -8,13 +8,13 @@ Uma calculadora simples em linguagem C que permite realizar operações matemát
 
 ---
 
-## :camera: Demonstração![demo](assets/demo.png)
+## :camera: Demonstração
+![demo](assets/demo.png)
 > *Imagem de exemplo da calculadora em execução no terminal*
 
 ---
 
 ## :hammer_and_wrench: Pré-requisitos e Instalação
-
 Antes de executar o projeto, vocẽ precisa ter:
 
 - :computer:[CodeBlocks](http://www.codeblocks.org/downloads) instalado (que inclui o compilador C) 
@@ -29,13 +29,11 @@ Antes de executar o projeto, vocẽ precisa ter:
 
 ## :gear: Para rodar no CodeBlocks:
 
-1. Após compilar, clique em "Run" ou pressione **Ctrl+F10"** para executar u
-o programa.
+1. Após compilar, clique em "Run" ou pressione **Ctrl+F10"** para executar o programa.
 
 SE você preferir rodar a partir do terminal, você pode usar o `gcc`(caso tenha o complilador instalado), no terminal, execute:
 
-## :memo: Como Usar 
-
+## :memo: Como Usar
 Após executar o programa, vocẽ verá um menu no terminal para escolher a operação desejada.
 
 ### Exemplo:
@@ -48,17 +46,21 @@ Escolha a operação:
    Opção: 1
    Digite o primeiro número: 10
    Digite o segundo número: 5
-   Resultado: 15
+   Resultado: 15 
 
 ## :open_file_folder: Estrutura do Projeto
 
-````
+Aqui está a estrutura de diretórios e arquivos principais do projeto:
 
-calculadora-em-c
+```
+
+calculadora-em-c/
 calculadora-em-c
 README.md
 LICENSE
 assets
+demo.png
+
 ```
 
 ### Principais Arquivos
@@ -72,10 +74,8 @@ assets
 
 Esse projeto está licenciado sob Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## :: Para rodar via terminal (Linux/macOS):
+## :technologist: Para rodar via terminal (Linux/macOS):
 
 ```bash
 gcc calculadora.c -o calculadora
 ./calculadora
-
-
