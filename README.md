@@ -55,11 +55,11 @@ Aqui está a estrutura de diretórios e arquivos principais do projeto:
 ```
 
 calculadora-em-c/
-calculadora-em-c
-README.md
-LICENSE
-assets
-demo.png
+|── calculadora-em-c
+|── README.md
+|── LICENSE
+|── assets
+   |── demo.png
 
 ```
 
